@@ -4,17 +4,19 @@ import java.util.Scanner;
 
 public class Main8 {
     public static void main(String[] args) {
+        //değişkenleri tanımladık
+        int a,b,c,sonuc;
         // Kullanıcıdan verileri alıyoruz
         Scanner veri = new Scanner(System.in);
         System.out.print("a sayısını giriniz: ");
-        int a = veri.nextInt();
+         a = veri.nextInt();
         System.out.print("b sayısını giriniz: ");
-        int b = veri.nextInt();
+         b = veri.nextInt();
         System.out.print("c sayısını giriniz: ");
-        int c = veri.nextInt();
+         c = veri.nextInt();
 
         // İşlem sırasına göre hesaplatıyoruz
-        int sonuc = a + b * c - b;
+         sonuc = a + b * c - b;
 
         // Sonucu ekrana yazdırıyoruz
         System.out.println("İşlemin sonucu: " + sonuc);
