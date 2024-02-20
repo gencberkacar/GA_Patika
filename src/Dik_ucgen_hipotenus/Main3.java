@@ -1,4 +1,4 @@
-package Proje3;
+package Dik_ucgen_hipotenus;
 import java.util.Scanner;
 
 
