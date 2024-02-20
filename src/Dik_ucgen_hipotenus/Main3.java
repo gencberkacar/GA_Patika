@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main3 {
 
     public static void main(String[] args) {
+        // değişkenler tanımlandı
         double a,b,c,u,alan;
         // Scanner nesnesi oluşturuldu
         Scanner girdi = new Scanner(System.in);
