@@ -1,0 +1,1 @@
+Sabit değer olarak belirlenen sebzelerin satın alınan kiloaya göre fiyatını otomatik hesaplayan program
