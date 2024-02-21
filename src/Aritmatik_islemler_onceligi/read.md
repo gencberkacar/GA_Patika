@@ -1,0 +1,1 @@
+3 veri alınarak aritmatik işlem yapılıyor.

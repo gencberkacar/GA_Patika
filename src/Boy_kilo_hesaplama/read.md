@@ -1,0 +1,1 @@
+Boy kilo verilerini alarak vücut kitle indeksini hesaplar.
