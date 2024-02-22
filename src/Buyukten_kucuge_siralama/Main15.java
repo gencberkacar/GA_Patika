@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Main15 {
     public static void main(String[] args) {
         Scanner veri = new Scanner(System.in);
+
+        //3 sayı değerini alıyoruz
         System.out.print("Birinci Sayıyı Giriniz : ");
         int sayi1 = veri.nextInt();
         System.out.print("İkinci Sayıyı Giriniz : ");
@@ -10,6 +12,7 @@ public class Main15 {
         System.out.print("Üçüncü Sayıyı Giriniz : ");
         int sayi3 = veri.nextInt();
 
+        //sayıları büyükten kücüge sıralıyoruz
         if (sayi1 >= sayi2 && sayi1 >= sayi3) {
             if (sayi2 >= sayi3) {
                 System.out.println(sayi1 + ", " + sayi2 + ", " + sayi3);
