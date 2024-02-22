@@ -1,0 +1,1 @@
+Yıl verisi alındıktan sonra belirlenen değişkenlere göre çin zodyak burcu hesaplanıp ekrana bastırılıyor
