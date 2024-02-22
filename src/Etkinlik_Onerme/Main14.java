@@ -2,11 +2,14 @@ package Etkinlik_Onerme;
 import java.util.Scanner;
 public class Main14 {
     public static void main(String[] args) {
+        //değişkenleri tanımladk
         int sicaklik , x;
         Scanner veri = new Scanner(System.in);
+        //sıcaklık bilgisini kullanıcıdan alıp sıcaklık değişkenine atadık
         System.out.print("Sıcaklık degeri giriniz : ");
         sicaklik = veri.nextInt();
 
+        //sıcaklık değerine göre x e değer atadık
         if (sicaklik < 5) {
             x = 1;
         } else if (sicaklik >= 5 && sicaklik < 15) {
@@ -16,6 +19,8 @@ public class Main14 {
         } else {
             x = 4;
         }
+
+        //sıcaklık değerine göre atanan x değerinin karşılığı çıktı olarak verildi
     switch (x){
         case 1:
             System.out.print("Kayak Yapmaya Gidebilirsin");
@@ -31,7 +36,7 @@ public class Main14 {
             break;
         default:
             System.out.print("Sanırım Evde Oturmak İstiyorsun ^^");
-    }
+        }
 
-}
+    }
 }
