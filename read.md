@@ -1,2 +1,1 @@
-Kullanıcı adı ve şifre verisi alındıktan sonra sabit değişken ile karşılaştırıldı eğer şifre yanlış ise sıfırlamak isteyip istemediği soruldu
-sıfırlamak isterse eski şifreyle aynı olmamak koşuluyla şifre sıfırlandı 
+Tip dönüşümü bulan programdır.
