@@ -1,0 +1,1 @@
+n kadar girilen sayıların en küçük ve en büyük değerini bulup ekrana yazdırır 
