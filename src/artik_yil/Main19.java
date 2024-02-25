@@ -8,6 +8,7 @@ public class Main19 {
         int yil = veri.nextInt();
 
         //kontrolleri sağlayıp çıktıyı verdik
+        
         if ((yil % 4 == 0 && yil % 100 != 0) || (yil % 400 == 0)) {
             System.out.println(yil + " bir artık yıldır.");
         } else {
