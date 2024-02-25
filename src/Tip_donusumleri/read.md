@@ -1,0 +1,1 @@
+Tip dönüşümü bulan programdır.
