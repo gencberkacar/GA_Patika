@@ -3,23 +3,22 @@ import java.util.Scanner;
 
 public class Main29 {
     public static void main(String[] args) {
-
         Scanner inp = new Scanner(System.in);
 
-        int n1 = 0, n2 = 1, n3, number, i;
+        int n, toplam = 0;
 
-        //veri girişi yaptırdık
         System.out.print("Bir sayı giriniz : ");
-        number = inp.nextInt();
+        n = inp.nextInt();
 
-        System.out.print(n1 + " " + n2);
-        //bir önceki rakamla toplatıp yazdırdık
-        for (i = 2; i < number; i++) {
-            n3 = n1 + n2;
-            System.out.print(" " + n3);
-            n1 = n2;
-            n2 = n3;
+        for (int i = 1; i < n; i++) {
+            if (n % i == 0) {
+                toplam += i;
+            }
         }
-        System.out.println();
+        if (toplam == n) {
+            System.out.println(n + " Bir Mükemmel sayıdır.");
+        } else {
+            System.out.println(n + " Bir Mükemmel sayı değildir.");
+        }
     }
 }

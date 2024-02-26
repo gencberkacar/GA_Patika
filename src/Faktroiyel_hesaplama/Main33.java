@@ -13,6 +13,6 @@ public class Main33 {
         for (int i= 1; i<= n; i++) {
             total *= i;
         }
-        System.out.println("Sayınızın " + n + ". Faktöriyeli : " + total);5
+        System.out.println("Sayınızın " + n + ". Faktöriyeli : " + total);
     }
 }
